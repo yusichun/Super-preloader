@@ -1,5 +1,15 @@
 [
   {
+    "name": "京东内容开放平台",
+        "url": "https://dr.jd.com\\.page\\app.html.*",
+        "pageElement": "//div[@id=\"data-table\"]",
+        "nextLink": "auto;",
+        "category": ["gallery", "nsfw"],
+        "autopager": {
+          "ipages": [true, 30]
+    }
+  }，
+  {
     "name": "wnacg",
     "url": "^https?://(www\\.)?wnacg\\.(org|net|com)/(\\?ctl=photos.*|photos-view-id.*\\.html)",
     "pageElement": "//span[@id='imgarea']",
